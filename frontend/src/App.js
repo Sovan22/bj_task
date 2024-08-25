@@ -15,7 +15,7 @@ const App = () => {
       const parsedInput = JSON.parse(input);
       
       // Call your API here
-      const apiResponse = await fetch('YOUR_API_ENDPOINT', {
+      const apiResponse = await fetch('https://bj-task.vercel.app/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
